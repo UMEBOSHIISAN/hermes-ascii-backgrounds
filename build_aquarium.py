@@ -18,9 +18,9 @@ HERMES_HOME = Path(os.environ.get("HERMES_HOME") or Path.home() / ".hermes")
 SKINS = HERMES_HOME / "skins"
 OUT = SKINS / "ascii-aquarium.yaml"
 
-# 配色（深い海）
-BG, BG2, FG, SUB, LINE = "#06121A", "#0B1C26", "#E4EEF2", "#9FB4BE", "#1C3340"
-GREEN, GREEN2, CYAN, PINK, GOLD = "#3DF5C8", "#A6FFE4", "#8CCBFF", "#FFA8D8", "#F2C879"
+# 配色（ダーク＋マトリックスグリーン）
+BG, BG2, FG, SUB, LINE = "#0E1116", "#161A21", "#ECE8DF", "#B9B4A9", "#262B33"
+GREEN, GREEN2, CYAN, PINK, GOLD = "#00FF41", "#7DFF9A", "#8CCBFF", "#FF9AD5", "#c9a96e"
 
 ART = {
     # 左向きに泳ぐクジラ（右→左へ移動）
@@ -233,7 +233,7 @@ CSS = """/* ascii-aquarium — build_aquarium.py で生成（このCSSを直接�
   background:
     url("data:image/svg+xml;charset=utf-8,{SVG}") center / cover no-repeat,
     url("{SVG_FILE_URL}") center / cover no-repeat,
-    radial-gradient(110% 80% at 90% 10%, rgba(61, 245, 200, 0.10) 0%, transparent 60%),
+    radial-gradient(110% 80% at 90% 10%, rgba(0, 255, 65, 0.10) 0%, transparent 60%),
     radial-gradient(90% 70% at 5% 100%, var(--aq-bg2) 0%, transparent 70%),
     var(--aq-bg) !important;
   color: var(--aq-fg);
