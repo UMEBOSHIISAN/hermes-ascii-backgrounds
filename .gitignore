@@ -1,0 +1,4 @@
+# 生成物（各自の環境で build_aquarium.py が書き出す）
+*.yaml
+*.svg
+__pycache__/
