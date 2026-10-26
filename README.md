@@ -16,7 +16,7 @@ Hermes Desktop のチャット画面の背景に、アスキーアートのク�
 Requires Python 3 (standard library only) and Hermes Desktop.
 
 ```sh
-git clone https://github.com/<you>/hermes-ascii-aquarium.git
+git clone https://github.com/UMEBOSHIISAN/hermes-ascii-aquarium.git
 cd hermes-ascii-aquarium
 python3 build_aquarium.py               # writes ~/.hermes/skins/ascii-aquarium.yaml
 hermes config set display.skin ascii-aquarium
